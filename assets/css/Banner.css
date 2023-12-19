@@ -1,0 +1,60 @@
+.hero-section {
+  max-width: 1600px;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1476610182048-b716b8518aae?q=80&w=1859&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px;
+}
+.company-name {
+  text-decoration: none;
+  font-size: 35px;
+  font-weight: 700;
+  color: rgb(44, 11, 23);
+}
+nav {
+  display: flex;
+  gap: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+.content {
+  height: 300px;
+  text-align: center;
+  margin: 70px auto;
+}
+
+.content h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.content p {
+  font-size: 20px;
+  backdrop-filter: opacity(40%);
+  color: aqua;
+}
+.content input {
+  padding: 5px 10px;
+  border-radius: 30px;
+  border: none;
+}
+
+.content button {
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  background-color: green;
+  color: white;
+}
