@@ -1,18 +1,23 @@
+body {
+  margin: 0;
+}
+
 .hero-section {
   max-width: 1600px;
   width: 100%;
+  margin: 0 auto;
   min-height: 100vh;
   background-image: url("https://images.unsplash.com/photo-1476610182048-b716b8518aae?q=80&w=1859&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  font-family: "Oswald", sans-serif;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   padding: 20px;
 }
 .company-name {
@@ -23,13 +28,14 @@
 }
 nav {
   display: flex;
-  gap: 10px;
+  gap: 15px;
 }
 
 nav a {
   text-decoration: none;
   color: whitesmoke;
 }
+
 .content {
   height: 300px;
   text-align: center;
@@ -37,7 +43,7 @@ nav a {
 }
 
 .content h1 {
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 700;
 }
 .content p {
@@ -49,6 +55,8 @@ nav a {
   padding: 5px 10px;
   border-radius: 30px;
   border: none;
+
+  outline: none;
 }
 
 .content button {
