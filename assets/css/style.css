@@ -15,9 +15,8 @@ nav {
   gap: 15px;
 }
 
-a {
+nav a {
   text-decoration: none;
   text-transform: uppercase;
-
   font-size: 13px;
 }
