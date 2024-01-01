@@ -1,3 +1,7 @@
+:root {
+  --primary-color: white;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -133,4 +137,66 @@ Hero section css
 }
 .image-wrapper img {
   width: 100%;
+}
+.trustedBrandsSec,
+.HowDoSection {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  margin: 50px 0px;
+}
+
+.tbsHeading {
+  text-align: center;
+}
+.brands {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10px;
+}
+.workFlow {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 10px;
+  margin-top: 30px;
+}
+
+.card {
+  width: 300px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+  position: relative;
+}
+
+.card img {
+  width: 80%;
+  margin-top: 20px;
+}
+
+.card-header {
+  color: black;
+  padding: 0px 10px;
+  font-size: 24px;
+}
+
+.card-description {
+  padding: 15px;
+  font-size: 16px;
+  color: #333;
+}
+
+.card-number {
+  position: absolute;
+  z-index: 50;
+  left: 50%;
+  transform: translateX(-50%);
+  transform: translatey(-50%);
+  font-size: 28px;
+  color: white;
+  background-color: skyblue;
+  border-radius: 50%;
+  font-size: 12px;
+  padding: 5px;
 }
